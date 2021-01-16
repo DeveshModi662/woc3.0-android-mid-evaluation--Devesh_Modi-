@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Woc30androidmidevaluationDevesh_Modi">
-        <activity android:name=".myWednesday"></activity>
-        <activity android:name=".myTuesday" />
-        <activity android:name=".myMonday" />
+        <activity android:name=".myWednesday"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".myTuesday"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".myMonday"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
