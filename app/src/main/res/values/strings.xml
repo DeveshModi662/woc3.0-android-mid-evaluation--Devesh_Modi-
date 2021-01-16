@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">woc3.0-android-mid-evaluation-Devesh_Modi</string>
+    <string name="appName">TimeTable Winter Sem 2021 DAIICT</string>
+    <string name="buttonMonday">MONDAY</string>
+    <string name="buttonTuesday">TUESDAY</string>
+    <string name="buttonWednesday">WEDNESDAY</string>
+    <string name="buttonThursday">THURSDAY</string>
+    <string name="buttonFriday">FRIDAY</string>
+    <string name="buttonSaturday">SATURDAY</string>
+</resources>
