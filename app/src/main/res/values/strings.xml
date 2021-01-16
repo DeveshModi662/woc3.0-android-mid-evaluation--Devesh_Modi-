@@ -7,4 +7,14 @@
     <string name="buttonThursday">THURSDAY</string>
     <string name="buttonFriday">FRIDAY</string>
     <string name="buttonSaturday">SATURDAY</string>
+    <string name="slot">SLOTS</string>
+    <string name="weekSlot1">Slot1   --------   08:30 -09:45</string>
+    <string name="weekSlot2">Slot2   --------   10:15 -11:30</string>
+    <string name="weekSlot3">Slot3   --------   12:00 -13:15</string>
+    <string name="weekSlot4">Slot4   --------   14:00 -17:00</string>
+    <string name="sub">SUBJECTS/LINKS</string>
+    <string name="subS1">IT215                Link:---- </string>
+    <string name="subS2">EL213                Link:---- </string>
+    <string name="subS3">SC209                Link:---- </string>
+    <string name="subS4">CT215            Lab Link:---- </string>
 </resources>
