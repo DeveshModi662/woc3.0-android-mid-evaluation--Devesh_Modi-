@@ -25,4 +25,24 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, myMonday.class) ;
         startActivity(intent) ;
     }
+    public void showTuesday(View view) {
+        Intent intent = new Intent(this, myTuesday.class) ;
+        startActivity(intent) ;
+    }
+//    public void showMonday(View view) {
+//        Intent intent = new Intent(this, myMonday.class) ;
+//        startActivity(intent) ;
+//    }
+//    public void showMonday(View view) {
+//        Intent intent = new Intent(this, myMonday.class) ;
+//        startActivity(intent) ;
+//    }
+//    public void showMonday(View view) {
+//        Intent intent = new Intent(this, myMonday.class) ;
+//        startActivity(intent) ;
+//    }
+//    public void showSaturday(View view) {
+//        Intent intent = new Intent(this, myMonday.class) ;
+//        startActivity(intent) ;
+//    }
 }
