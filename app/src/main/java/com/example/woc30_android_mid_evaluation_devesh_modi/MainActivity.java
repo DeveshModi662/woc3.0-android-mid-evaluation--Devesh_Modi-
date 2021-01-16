@@ -32,17 +32,17 @@ public class MainActivity extends AppCompatActivity {
     public void showWednesday(View view) {
         Intent intent = new Intent(this, myWednesday.class) ;
         startActivity(intent) ;
-//    }
-//    public void showMonday(View view) {
-//        Intent intent = new Intent(this, myMonday.class) ;
-//        startActivity(intent) ;
-//    }
-//    public void showMonday(View view) {
-//        Intent intent = new Intent(this, myMonday.class) ;
-//        startActivity(intent) ;
-//    }
-//    public void showSaturday(View view) {
-//        Intent intent = new Intent(this, myMonday.class) ;
-//        startActivity(intent) ;
-//    }
+    }
+    public void showThursday(View view) {
+        Intent intent = new Intent(this, myThursday.class) ;
+        startActivity(intent) ;
+    }
+    public void showFriday(View view) {
+        Intent intent = new Intent(this, myFriday.class) ;
+        startActivity(intent) ;
+    }
+    public void showSaturday(View view) {
+        Intent intent = new Intent(this, myMonday.class) ;
+        startActivity(intent) ;
+    }
 }

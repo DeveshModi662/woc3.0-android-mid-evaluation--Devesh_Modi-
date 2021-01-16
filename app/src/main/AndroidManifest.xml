@@ -9,10 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Woc30androidmidevaluationDevesh_Modi">
-        <activity android:name=".myWednesday"
+        <activity android:name=".mySaturday"
             android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".myTuesday"
-            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".myFriday"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".myThursday"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".myWednesday"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".myTuesday"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".myMonday"
             android:parentActivityName=".MainActivity" />
