@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="5dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,14 +27,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="SLOTS" />
+                android:background="#8BC34A"
+                android:text="SLOTS"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="LECTURES/LABS" />
+                android:background="#8BC34A"
+                android:text="LECTURES/LABS"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -47,14 +56,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Slot1   --------   08:30 -09:45" />
+                android:text="Slot1             08:30 -09:45"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="CT215" />
+                android:text="CT215"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -68,14 +83,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Slot2   --------   10:15 -11:30" />
+                android:text="Slot2                 10:15 -11:30"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="----" />
+                android:text="----"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -89,14 +110,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Slot3   --------   12:00 -13:15" />
+                android:text="Slot3                  12:00 -13:15"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="SC221" />
+                android:text="SC221"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -110,14 +137,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Slot4   --------   14:00 -17:00" />
+                android:text="Slot4                   14:00 -17:00"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="EL213" />
+                android:text="EL213"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

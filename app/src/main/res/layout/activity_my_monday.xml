@@ -10,6 +10,10 @@
         android:id="@+id/linearLayout2"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_weight="1"
         android:orientation="vertical"
         android:visibility="visible"
@@ -23,9 +27,14 @@
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.37"
+            android:layout_weight="0.54"
+            android:background="#8BC34A"
+            android:maxHeight="30dp"
+            android:minHeight="10dp"
             android:text="@string/sub"
-            android:textSize="24sp" />
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView10"
@@ -33,7 +42,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/subS1"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView9"
@@ -41,7 +52,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/subS2"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView8"
@@ -49,7 +62,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/subS3"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView7"
@@ -57,26 +72,39 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/subS4"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:minWidth="150dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="55dp">
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.1"
+            android:background="#8BC34A"
             android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:minHeight="41dp"
             android:text="@string/slot"
-            android:textSize="24sp" />
+            android:textColor="#FFFAFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
@@ -85,7 +113,9 @@
             android:layout_weight="1"
             android:maxWidth="100dp"
             android:text="@string/weekSlot1"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView4"
@@ -94,7 +124,9 @@
             android:layout_weight="1"
             android:maxWidth="100dp"
             android:text="@string/weekSlot2"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
@@ -103,7 +135,9 @@
             android:layout_weight="1"
             android:maxWidth="100dp"
             android:text="@string/weekSlot3"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView2"
@@ -112,7 +146,9 @@
             android:layout_weight="1"
             android:maxWidth="100dp"
             android:text="@string/weekSlot4"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
